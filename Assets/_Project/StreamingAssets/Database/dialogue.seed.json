@@ -1,0 +1,9 @@
+{
+  "npcDialogues": [
+    {
+      "npcId": "villager",
+      "randomTalkLines": ["Mhm... Hrrm...", "Raa... Hmm..."],
+      "requestLines": ["Need a horseshoe.", "Can you restore this blade?"]
+    }
+  ]
+}

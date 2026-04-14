@@ -1,0 +1,18 @@
+{
+  "recipes": [
+    {
+      "recipeId": "apprentice_nail",
+      "outputItemId": "nail",
+      "tier": "Apprentice",
+      "forgeDurationSeconds": 20.0,
+      "meltDurationSeconds": 10.0
+    },
+    {
+      "recipeId": "journeyman_dagger",
+      "outputItemId": "simple_dagger",
+      "tier": "Journeyman",
+      "forgeDurationSeconds": 55.0,
+      "meltDurationSeconds": 25.0
+    }
+  ]
+}

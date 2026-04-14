@@ -1,0 +1,19 @@
+{
+  "upgrades": [
+    { "upgradeId": "furnace_lv1", "category": "Furnace", "level": 1, "price": 0 },
+    { "upgradeId": "furnace_lv2", "category": "Furnace", "level": 2, "price": 500 },
+    { "upgradeId": "furnace_lv3", "category": "Furnace", "level": 3, "price": 1500 },
+
+    { "upgradeId": "bellows_lv1", "category": "Bellows", "level": 1, "price": 0 },
+    { "upgradeId": "bellows_lv2", "category": "Bellows", "level": 2, "price": 650 },
+    { "upgradeId": "bellows_lv3", "category": "Bellows", "level": 3, "price": 1900 },
+
+    { "upgradeId": "hammer_lv1", "category": "Hammer", "level": 1, "price": 0 },
+    { "upgradeId": "hammer_lv2", "category": "Hammer", "level": 2, "price": 450 },
+    { "upgradeId": "hammer_lv3", "category": "Hammer", "level": 3, "price": 1400 },
+
+    { "upgradeId": "sharpening_lv1", "category": "Sharpening", "level": 1, "price": 0 },
+    { "upgradeId": "sharpening_lv2", "category": "Sharpening", "level": 2, "price": 700 },
+    { "upgradeId": "sharpening_lv3", "category": "Sharpening", "level": 3, "price": 1800 }
+  ]
+}
