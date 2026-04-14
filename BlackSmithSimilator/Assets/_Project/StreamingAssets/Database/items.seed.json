@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "itemId": "iron_ore",
+      "displayName": "Iron Ore",
+      "description": "Common iron ore chunk",
+      "category": "RawMaterial",
+      "requiredTier": "Apprentice",
+      "merchantSource": "Miner",
+      "unitType": "Kilogram",
+      "weightPerUnitKg": 1.0,
+      "baseBuyPrice": 12,
+      "baseSellPrice": 8,
+      "meltDurationMultiplier": 1.1,
+      "forgeDurationMultiplier": 1.0,
+      "durabilityBase": 0.0
+    },
+    {
+      "itemId": "coal",
+      "displayName": "Coal",
+      "description": "Furnace fuel resource",
+      "category": "Fuel",
+      "requiredTier": "Apprentice",
+      "merchantSource": "Miner",
+      "unitType": "Kilogram",
+      "weightPerUnitKg": 0.5,
+      "baseBuyPrice": 5,
+      "baseSellPrice": 3,
+      "meltDurationMultiplier": 1.0,
+      "forgeDurationMultiplier": 1.0,
+      "durabilityBase": 0.0
+    },
+    {
+      "itemId": "short_sword",
+      "displayName": "Short Sword",
+      "description": "Journeyman level blade",
+      "category": "Weapon",
+      "requiredTier": "Journeyman",
+      "merchantSource": "None",
+      "unitType": "Piece",
+      "weightPerUnitKg": 1.8,
+      "baseBuyPrice": 0,
+      "baseSellPrice": 180,
+      "meltDurationMultiplier": 1.2,
+      "forgeDurationMultiplier": 1.3,
+      "durabilityBase": 100.0
+    }
+  ]
+}

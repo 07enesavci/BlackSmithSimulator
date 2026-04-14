@@ -1,0 +1,7 @@
+{
+  "ranks": [
+    { "rank": "Apprentice", "xpMin": 0, "xpMax": 5000 },
+    { "rank": "Journeyman", "xpMin": 5000, "xpMax": 10000 },
+    { "rank": "Master", "xpMin": 10000, "xpMax": 999999 }
+  ]
+}
