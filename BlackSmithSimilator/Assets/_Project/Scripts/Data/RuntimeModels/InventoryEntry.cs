@@ -7,6 +7,6 @@ namespace BlacksmithSimulator.Data.RuntimeModels
     {
         public string ItemId;
         public float Amount;
-        public InventoryUnitType UnitType;
+        public string Unit;
     }
 }

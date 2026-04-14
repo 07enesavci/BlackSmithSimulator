@@ -1,33 +1,18 @@
-# Unity generated / large local folders (do not commit)
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-/[Mm]emoryCaptures/
-/[Rr]ecordings/
-/[Cc]rash[Rr]eports/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
 
-# Same patterns anywhere in repo (nested Unity project folder)
-**/[Ll]ibrary/
-**/[Tt]emp/
-**/[Oo]bj/
-**/[Bb]uild/
-**/[Bb]uilds/
-**/[Ll]ogs/
-**/[Uu]ser[Ss]ettings/
-**/[Mm]emoryCaptures/
-**/[Rr]ecordings/
-
-# IDE / tooling
 .vs/
 .vscode/
-.idea/
-*.suo
+*.csproj
+*.sln
 *.user
-*.userprefs
 *.pidb
 *.booproj
 *.svd
@@ -36,21 +21,4 @@
 *.opendb
 *.VC.db
 
-# Unity / Mono
-sysinfo.txt
-*.apk
-*.aab
-*.unitypackage
-
-# Solution / project files (Unity regenerates)
-*.csproj
-*.sln
-*.csproj.user
-
-# Asset Store (optional bulk)
-[Aa]ssets/[Aa]sset[Ss]tore[Tt]ools*
-
-# OS junk
-.DS_Store
-Thumbs.db
-Desktop.ini
+Assets/AssetStoreTools*

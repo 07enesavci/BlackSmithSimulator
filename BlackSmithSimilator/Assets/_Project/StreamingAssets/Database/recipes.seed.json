@@ -2,29 +2,17 @@
   "recipes": [
     {
       "recipeId": "apprentice_nail",
-      "requiredTier": "Apprentice",
-      "ingredients": [
-        { "itemId": "iron_ore", "amount": 0.15 },
-        { "itemId": "coal", "amount": 0.05 }
-      ],
       "outputItemId": "nail",
-      "outputAmount": 1.0,
+      "tier": "Apprentice",
       "forgeDurationSeconds": 20.0,
-      "meltDurationSeconds": 10.0,
-      "isRestoration": false
+      "meltDurationSeconds": 10.0
     },
     {
       "recipeId": "journeyman_dagger",
-      "requiredTier": "Journeyman",
-      "ingredients": [
-        { "itemId": "iron_ore", "amount": 0.75 },
-        { "itemId": "coal", "amount": 0.25 }
-      ],
       "outputItemId": "simple_dagger",
-      "outputAmount": 1.0,
+      "tier": "Journeyman",
       "forgeDurationSeconds": 55.0,
-      "meltDurationSeconds": 25.0,
-      "isRestoration": false
+      "meltDurationSeconds": 25.0
     }
   ]
 }

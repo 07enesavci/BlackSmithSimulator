@@ -1,10 +1,7 @@
 {
   "name": "BlacksmithSimulator.Runtime",
   "rootNamespace": "BlacksmithSimulator",
-  "references": [
-    "Unity.TextMeshPro",
-    "UnityEngine.UI"
-  ],
+  "references": [],
   "includePlatforms": [],
   "excludePlatforms": [],
   "allowUnsafeCode": false,

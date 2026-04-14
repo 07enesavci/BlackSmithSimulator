@@ -1,5 +1,0 @@
-{
-  "apprentice": ["nail", "horseshoe", "woodcutter_axe", "skinning_knife"],
-  "journeyman": ["simple_dagger", "short_sword", "spear", "arrow"],
-  "master": ["mace", "classic_sword", "long_sword", "war_axe"]
-}
