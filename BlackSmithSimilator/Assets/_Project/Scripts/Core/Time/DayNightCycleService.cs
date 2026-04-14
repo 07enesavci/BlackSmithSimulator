@@ -30,7 +30,7 @@ namespace BlacksmithSimulator.Core.Time
                 return;
             }
 
-            currentHour += Time.deltaTime * hourSpeed;
+            currentHour += UnityEngine.Time.deltaTime * hourSpeed;
             if (currentHour >= 24f)
             {
                 currentHour = 24f;
