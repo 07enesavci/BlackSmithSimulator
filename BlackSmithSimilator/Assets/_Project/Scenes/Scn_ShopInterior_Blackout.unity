@@ -20646,7 +20646,8 @@ MonoBehaviour:
   _jumpHeight: 1.5
   _gravity: -19.62
   _cameraTransform: {fileID: 330585546}
-  _mouseSensitivity: 15
+  _mouseSensitivity: 0.12
+  _lookSmoothing: 35
   _maxLookAngle: 80
   _groundCheck: {fileID: 481378348}
   _groundDistance: 0.2
@@ -21063,7 +21064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d16b2c3d29e6f64ca743ccd6e3a2723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: BlacksmithSimulator.Runtime::BlacksmithSimulator.Core.Time.DayNightCycleService
-  _realSecondsPerHour: 2
+  _realSecondsPerHour: 10
   _startHour: 8
   _shopCloseHour: 24
   _faintHour: 26
@@ -22684,6 +22685,53 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1881179811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1881179813}
+  - component: {fileID: 1881179812}
+  m_Layer: 0
+  m_Name: GameBootstrap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1881179812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881179811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1464db40671d96e46b715bbf701ac3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BlacksmithSimulator.Runtime::BlacksmithSimulator.Core.Bootstrap.GameBootstrap
+  _vSyncCount: 1
+  _lockCursorOnStart: 1
+  _hideCursorOnStart: 1
+--- !u!4 &1881179813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881179811}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1908566613
 GameObject:
   m_ObjectHideFlags: 0
@@ -31845,3 +31893,4 @@ SceneRoots:
   - {fileID: 674254382}
   - {fileID: 157096957}
   - {fileID: 1309581502}
+  - {fileID: 1881179813}
